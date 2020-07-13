@@ -1,0 +1,42 @@
+body {
+    background-color: #212121;
+}
+
+p {
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.col3 {
+    @extend %col;
+    width: 33.33%
+}
+
+.service {
+    @include serviceDisplay;
+}
+
+#blog {
+    display: flex;
+    width: 1202px;
+}
+
+.col4 {
+    @extend %col;
+    width: calc(25% - 1px);
+    -webkit-width: 15px;
+    box-sizing: border-box;
+}
+
+#sec1 {
+    @include secDisplay ($spindle);
+}
+#sec2 {
+    @include secDisplay ($regentStBlue);
+}
+#sec3 {
+    @include secDisplay ($morningGlory);
+}
+#sec4 {
+    @include secDisplay ($halfBaked);
+}

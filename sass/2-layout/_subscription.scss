@@ -1,0 +1,22 @@
+#subscribe {
+    margin-top: 0;
+    background-color: $regentStBlue;
+    height: 135px;
+    text-align: center;
+    padding-top: 26px;
+
+    h3 {
+        margin-top: 0;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    input {
+        height: 30px;
+        width: 300px;
+        margin-right: 35px;
+        border: none;
+        border-radius: 5px;
+        padding-left: 20px;
+    }
+}

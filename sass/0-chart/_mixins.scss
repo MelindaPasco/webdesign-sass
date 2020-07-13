@@ -1,0 +1,46 @@
+@mixin serviceDisplay {
+    text-align: center;
+    padding: 30px;
+    background-color: $regentStBlue;
+    -moz-box-sizing: border-box;
+
+    img {
+        width: 112px;
+    }
+
+    h4  {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    p {
+        padding: 5px;
+        text-align: justify;
+    }
+}
+
+@mixin secDisplay ($color) {
+    background-color: $color;
+    margin-right: -4px;
+    padding-top: 15px;
+
+    h2 {
+        text-align: right;
+        margin: 0px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+        font-size: 34px;
+        line-height: 32px;
+
+        span {
+            font-size: 24px;
+            margin-right: 10px;;
+        }
+    }
+
+    p {
+        padding: 20px;
+        margin-top: 0;
+    }
+}

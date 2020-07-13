@@ -1,0 +1,15 @@
+header {
+    width: 100%;
+    height: 374px;
+    overflow: hidden;
+
+    #logo {
+        position: absolute;
+        left: 50%;
+        margin-left: -295px;
+    }
+    #bgImg {
+        width: 100%;
+        height: 374px;
+    }
+}

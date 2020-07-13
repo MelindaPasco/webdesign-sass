@@ -1,0 +1,42 @@
+.carousel {
+    margin-bottom: -4px;
+    background-color: $morningGlory;
+
+    .slideshow {
+        width: 100%;
+        height: 585px;
+    }
+
+    .arrows {
+        position: absolute;
+        width: 1202px;
+        margin-top: 260px;
+
+        img {
+            height: 60px;
+        }
+    }
+
+    #back {
+        float: left;
+    }
+
+    #next {
+        float: right;
+    }
+
+    #back:hover, #next:hover {
+        position:relative;
+	    top:-1px;
+    }
+
+    #back:active {
+        position:relative;
+	    left:-2px;
+    }
+
+    #next:active {
+        position:relative;
+	    left:2px;
+    }
+}

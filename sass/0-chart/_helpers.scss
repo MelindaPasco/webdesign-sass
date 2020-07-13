@@ -1,0 +1,15 @@
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;;
+}
+
+.wrapper {
+    width: 1202px;
+    margin: auto;
+    background-color: $regentStBlue;
+}
+
+%col {
+    display: inline-block;
+    margin: 0;
+}
