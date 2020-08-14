@@ -1,19 +1,20 @@
 .carousel {
+    position: relative;
     margin-bottom: -4px;
     background-color: $morningGlory;
 
     .slideshow {
         width: 100%;
-        height: 585px;
+
     }
 
     .arrows {
         position: absolute;
-        width: 1202px;
-        margin-top: 260px;
+        width: 100%;
+        margin-top: 23%;
 
         img {
-            height: 60px;
+            height: 80px;
         }
     }
 
@@ -26,17 +27,17 @@
     }
 
     #back:hover, #next:hover {
-        position:relative;
-	    top:-1px;
+        transform: scale(1.3);
+        cursor: pointer;
     }
 
     #back:active {
         position:relative;
-	    left:-2px;
+	    left:-4px;
     }
 
     #next:active {
         position:relative;
-	    left:2px;
+	    left:4px;
     }
 }
