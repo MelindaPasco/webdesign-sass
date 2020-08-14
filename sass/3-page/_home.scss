@@ -18,13 +18,13 @@ p {
 
 #blog {
     display: flex;
-    width: 1202px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .col4 {
     @extend %col;
-    width: calc(25% - 1px);
-    -webkit-width: 15px;
+    width: 24.91%;
     box-sizing: border-box;
 }
 
@@ -39,4 +39,24 @@ p {
 }
 #sec4 {
     @include secDisplay ($halfBaked);
+}
+
+@media (max-width: 610px) {
+    .col3 {
+        width: 100%;
+    }
+
+    #blog {
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+
+    .col4 {
+        width: 100%;
+        background-color: red($color: #000000);
+    }
+
+    section p {
+        margin-bottom: 0px;
+    }
 }
